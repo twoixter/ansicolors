@@ -29,6 +29,18 @@
  */
 
 /**
+ * Define STDOUT constant. STDOUT as constant should be automatically defined
+ * in CLI mode but is not in the interactive mode of the php executable by
+ * using "php -a" in the shell.
+ *
+ * Despite the huge amount of comments elsewhere, the "stdout" standard output
+ * stream is just the file handle of "1". "php://stdout" is just syntactic
+ * sugar to open the same, but file handle 1 should be already opened.
+ *
+ */
+if (!defined("STDOUT")) define("STDOUT", 1);
+
+/**
  * Main "ansi" class. Defined in the root namespace to be able to use it as
  * static class. Just imagine it is a namespace...
  *
