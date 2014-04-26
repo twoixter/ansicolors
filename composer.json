@@ -1,9 +1,9 @@
 {
     "name" : "twoixter/ansicolors",
     "type" : "library",
-    "description" : "A library to display ANSI Colors in CLI PHP applications that doesn't suck. ",
+    "description" : "A no-nonsense library to display ANSI colors in CLI PHP scripts.",
     "keywords" : ["ansi", "color", "cli", "display"],
-    "homepage": "http://github.com/twoixter/ansicolors",
+    "homepage": "https://github.com/twoixter/ansicolors",
     "license": "MIT",
     "authors": [
         {

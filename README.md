@@ -108,7 +108,7 @@ Example:
 
 	# Use the new named colors
 	echo ansi::success("The file has been copied successfully!");
-    echo ansi::error("Watch out! Something was wrong...");
+    echo ansi::error("Watch out! Something went wrong...");
 
 ?>
 ```
@@ -122,7 +122,7 @@ $ php myscript.php | less
 $ php myscript.php > output_file.txt
 ```
 
-And you can be sure no ANSI codes will mangle your output. Perfect for logging to file, for exmple, or using `less` to paginate.
+And you can be sure no ANSI codes will mangle your output. Perfect for logging to file for example, or using `less` to paginate.
 
 ## License
 
